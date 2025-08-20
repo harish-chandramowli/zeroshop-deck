@@ -75,8 +75,8 @@
         }
 
         .pre-ai-box {
-            background: #f8f8f8;
-            border: 2px solid #9ca3af;
+            background: #fef2f2;
+            border: 2px solid #dc2626;
         }
 
         .ai-era-box {
@@ -162,7 +162,7 @@
         }
 
         .key-metric {
-            font-size: 1.1rem;
+            font-size: 1.8rem;
             font-weight: 700;
             margin-bottom: 5px;
         }
@@ -205,42 +205,50 @@
 <body>
     <div class="slide">
         <h2 class="center">How AI Transforms ERPs</h2>
-        <p class="subtitle center">From Data Warehouses to Intelligent Orchestrators</p>
+        <p class="subtitle center">From Daily Sync Failures to Perfect Orchestration</p>
 
         <div class="evolution-container">
             <div class="era-box pre-ai-box">
                 <div>
                     <div class="era-label">Pre-AI Era</div>
-                    <div class="era-title" style="color: #6b7280;">
-                        Store Everything
+                    <div class="era-title" style="color: #dc2626;">
+                        Data Copies Everywhere
                     </div>
                 </div>
 
                 <div class="visual-concept">
-                    <div style="font-size: 3rem; margin-bottom: 10px;">🗄️</div>
-                    <div class="data-flow">
-                        <span class="system-box">Shopify</span>
-                        <span>→</span>
-                        <span style="font-weight: 700;">COPY</span>
-                    </div>
-                    <div class="data-flow">
-                        <span class="system-box">Inventory</span>
-                        <span>→</span>
-                        <span style="font-weight: 700;">COPY</span>
-                    </div>
-                    <div class="data-flow">
-                        <span class="system-box">Orders</span>
-                        <span>→</span>
-                        <span style="font-weight: 700;">COPY</span>
+                    <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 15px;">
+                        <!-- Database 1 -->
+                        <ellipse cx="60" cy="25" rx="35" ry="12" fill="#dc2626"/>
+                        <rect x="25" y="25" width="70" height="20" fill="#dc2626"/>
+                        <ellipse cx="60" cy="45" rx="35" ry="12" fill="#991b1b"/>
+                        
+                        <!-- Database 2 -->
+                        <ellipse cx="60" cy="55" rx="35" ry="12" fill="#dc2626"/>
+                        <rect x="25" y="55" width="70" height="20" fill="#dc2626"/>
+                        <ellipse cx="60" cy="75" rx="35" ry="12" fill="#991b1b"/>
+                        
+                        <!-- Database 3 -->
+                        <ellipse cx="60" cy="85" rx="35" ry="12" fill="#dc2626"/>
+                        <rect x="25" y="85" width="70" height="20" fill="#dc2626"/>
+                        <ellipse cx="60" cy="105" rx="35" ry="12" fill="#991b1b"/>
+                        
+                        <!-- Error X overlay -->
+                        <path d="M 45 40 L 75 70 M 75 40 L 45 70" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    </svg>
+                    <div style="font-weight: 700; color: #dc2626; font-size: 1.1rem;">
+                        Copy Everything<br/>
+                        <span style="font-size: 0.9rem; font-weight: 500;">↓</span><br/>
+                        Sync Forever
                     </div>
                 </div>
 
                 <div>
-                    <div class="key-metric" style="color: #6b7280;">
-                        Why it made sense:
+                    <div class="key-metric" style="color: #dc2626; font-weight: 800;">
+                        Never in Sync
                     </div>
                     <div class="metric-label">
-                        No smart way to connect systems
+                        Always playing catch-up
                     </div>
                 </div>
             </div>
@@ -252,7 +260,7 @@
                 <div>
                     <div class="era-label">AI Era</div>
                     <div class="era-title" style="color: #0f766e;">
-                        Connect Everything
+                        Intelligent Orchestration
                     </div>
                 </div>
 
@@ -260,25 +268,20 @@
                     <div class="ai-brain">
                         <span style="font-size: 1.8rem; font-weight: 900; font-family: 'Inter', sans-serif;">AI</span>
                     </div>
-                    <div style="margin-top: 15px; font-weight: 600; color: #0f766e;">
-                        AI Orchestrator
-                    </div>
-                    <div style="display: flex; gap: 10px; margin-top: 10px;">
-                        <span class="system-box">Shopify</span>
-                        <span class="system-box">Inventory</span>
-                        <span class="system-box">Orders</span>
-                    </div>
-                    <div style="color: #0f766e; font-size: 0.85rem; margin-top: 8px;">
-                        Direct API • Real-time • No copies
+                    <div style="margin-top: 15px; font-weight: 700; color: #0f766e; font-size: 1.1rem;">
+                        MCP Integration<br/>
+                        <span style="font-size: 0.8rem; font-weight: 400;">(Model Context Protocol)</span><br/>
+                        <span style="font-size: 0.9rem; font-weight: 500;">↓</span><br/>
+                        Always Real-time
                     </div>
                 </div>
 
                 <div>
-                    <div class="key-metric" style="color: #0f766e;">
-                        Why it's possible now:
+                    <div class="key-metric" style="color: #0f766e; font-weight: 800;">
+                        Always Current
                     </div>
                     <div class="metric-label">
-                        AI understands & connects any API
+                        Orchestrates workflows, no copies
                     </div>
                 </div>
             </div>
